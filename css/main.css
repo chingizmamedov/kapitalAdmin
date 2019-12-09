@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header {
+  height: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-bottom: 1px solid #EBD9DE;
+}
+
+.header-content {
+  width: 100%;
+}
+
+#icon {
+  fill: #DD3B44;
+}
+
+.question-img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.question-text {
+  font-size: 20px;
+  cursor: pointer;
+  position: relative;
+}
+
+.question-text:before {
+  position: absolute;
+  content: '';
+  width: 10px;
+  height: 10px;
+  border: 2px solid #ACACAC;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  right: -25px;
+  top: 5px;
+}
+
+.logo {
+  margin-right: 50px;
+}
+
+/*
+    links
+*/
+.link-main {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  background: #DA2A34;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.tabs {
+  border-bottom: 1px solid #EBD9DE;
+  width: 100%;
+}
+
+.tab {
+  padding: 10px 20px;
+}
+
+.tab-btn {
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  position: relative;
+}
+
+.tab-btn:hover {
+  background: rgba(218, 58, 66, 0.4);
+}
+
+.tab-btn:before {
+  position: absolute;
+  content: '';
+  height: 3px;
+  width: calc(100% - 10px);
+  background: #A80731;
+  bottom: -10px;
+  left: 5px;
+  display: none;
+}
+
+.tab-btn__active:before {
+  display: block;
+}
+
+#map1 {
+  display: none;
+}
+
+#map2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.map-wrap {
+  min-height: calc(100vh - 157px);
+}
+
+.map-info {
+  background: #C11945;
+  padding: 30px;
+  border-radius: 12px;
+  color: #F47999;
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+.map-info:first-child {
+  margin-top: 40px;
+}
+
+.map-info-title {
+  margin-bottom: 14px;
+}
+
+.map-info span {
+  font-weight: bold;
+  color: #fff;
+}
+
+circle {
+  stroke-width: 5;
+  stroke: #f00;
+  fill: #ff0;
+}
+
+.modal {
+  padding: 20px;
+  border-radius: 8px;
+  background: #6ac22f;
+  -webkit-box-shadow: 0 0 10px #e1e1e1;
+          box-shadow: 0 0 10px #e1e1e1;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 22;
+}
+
+.box {
+  padding: 8px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  margin-top: 6px;
+  padding: 7px;
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.input {
+  padding: 6px;
+  border-radius: 5px;
+  border: 1px solid #e1e1e1;
+  margin-bottom: 7px;
+}
+
+#sgs {
+  display: none;
+}
+/*# sourceMappingURL=main.css.map */
