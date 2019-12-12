@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-
-}
-
 .header {
     height: 100px;
     padding-left: 50px;
@@ -108,12 +104,6 @@ body {
     &-wrap {
         min-height: calc(100vh - 157px);
     }
-    &-left {
-        
-    }
-    &-right {
-        
-    }
     &-info {
         background: #C11945;
         padding: 30px;
@@ -180,5 +170,5 @@ circle {
 }
 
 #sgs {
-    display: none;
+    // display: none;
 }
