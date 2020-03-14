@@ -107,22 +107,24 @@ $(function() {
 		var listing = "";
 		for (var i = 0; i < allFilials.length; i++) {
 			let toast = `<div class="toast opacity-1" role="alert" aria-live="assertive" aria-atomic="true">
-                            <div class="toast-header">
-                            <span class="badge badge-secondary mr-2">${i +
-															1}</span>
-                                <strong class="mr-auto">${
-																	allFilials[i].filialName
-																}</strong>
-                                
-                                <button data-id="${i}" class="delete-item" type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="toast-body">
-                                <span>X : ${allFilials[i].filialX}</span>
-                                <span>Y: ${allFilials[i].filialY}</span>
-                            </div>
-                            </div>`;
+                <div class="toast-header">
+                <span class="badge badge-secondary mr-2">${i + 1}</span>
+                <strong class="mr-auto">${allFilials[i].filialName}</strong>
+                
+                <button data-id="${i}" type="button" class=" delete-item ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="toast-body">
+                <span class="badge badge-warning">ID: ${allFilials[i].id}</span>
+                <span class="badge badge-info">X : ${
+									allFilials[i].filialX
+								}</span>
+                <span class="badge badge-info">Y: ${
+									allFilials[i].filialY
+								}</span>
+                </div>
+                </div>`;
 			listing += toast;
 		}
 		document.getElementById("listFull").innerHTML = listing;
