@@ -9,6 +9,7 @@
     padding-left: 50px;
     padding-right: 50px;
     border-bottom: 1px solid #EBD9DE;
+
     &-content {
         width: 100%;
     }
@@ -24,10 +25,12 @@
         height: 30px;
         cursor: pointer;
     }
+
     &-text {
         font-size: 20px;
         cursor: pointer;
         position: relative;
+
         &:before {
             position: absolute;
             content: '';
@@ -45,6 +48,7 @@
 .logo {
     margin-right: 50px;
 }
+
 /*
     links
 */
@@ -64,16 +68,20 @@
     border-bottom: 1px solid #EBD9DE;
     width: 100%;
 }
+
 .tab {
     padding: 10px 20px;
+
     &-btn {
         padding: 5px;
         cursor: pointer;
         border-radius: 5px;
         position: relative;
+
         &:hover {
             background: rgba(218, 58, 66, 0.4);
         }
+
         &:before {
             position: absolute;
             content: '';
@@ -84,6 +92,7 @@
             left: 5px;
             display: none;
         }
+
         &__active {
             &:before {
                 display: block;
@@ -100,10 +109,12 @@
 #map2 {
     display: flex;
 }
+
 .map {
     &-wrap {
         min-height: calc(100vh - 157px);
     }
+
     &-info {
         background: #C11945;
         padding: 30px;
@@ -111,15 +122,18 @@
         color: #F47999;
         font-size: 22px;
         margin-top: 20px;
+
         &:first-child {
             margin-top: 40px;
         }
+
         &-title {
             margin-bottom: 14px;
         }
+
         & span {
             font-weight: bold;
-            
+
             color: #fff;
         }
     }
@@ -129,7 +143,7 @@ circle {
     stroke-width: 5;
     stroke: #f00;
     fill: #ff0;
-  }
+}
 
 
 
@@ -147,12 +161,14 @@ circle {
     left: 20px;
     z-index: 22;
 }
+
 .box {
     padding: 8px;
     border: 1px solid #333;
     border-radius: 5px;
     margin-bottom: 10px;
 }
+
 .btn {
     margin-top: 6px;
     padding: 7px;
@@ -162,6 +178,7 @@ circle {
     border-radius: 5px;
     cursor: pointer;
 }
+
 .input {
     padding: 6px;
     border-radius: 5px;
